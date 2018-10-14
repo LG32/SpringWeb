@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册</title>
+</head>
+<link rel="stylesheet" href="../css/SignUp.css" type="text/css">
+<script language="javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../js/SignUp.js"></script>
+
+<body style="display: block; margin-top: 8px; margin-left: 12px; margin-right: 12px; margin-bottom: 8px;" >
+<div class="title">
+  <ul class="navigation">
+    <li id="page1" class="titleli" style="border-bottom: 3px solid #FFFFFF;font-weight: bold">用户注册</li>
+  </ul>
+</div>
+<div style="margin-top: 50px">
+  <div class="title-line"> <span class="tit" style="font-size: 38px;">注册</span> </div>
+</div>
+<div class="register-container" style="margin-top: 80px;">
+  <form id="registerForm" action="SignUpServlet" method="post" >
+    <div class="form-group">
+      <div class="el-input">
+        <input type="text" id="name" autocomplete="off" name="name" placeholder="昵称" class="el-input-inner" required="required">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="el-input">
+        <input type="password" id="password" autocomplete="off" name="password" placeholder="密码（6-16个字符组成，区分大小写）" class="el-input-inner" required="required">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="el-input">
+        <input type="password" id="repeat" autocomplete="off" name="repeat" placeholder="重新输入密码" class="el-input-inner" required="required">
+        <p id="misPassword" class="mistip"></p>
+      </div>
+    </div>
+    <div class="check-box">
+      <div class="check-box-select">
+        <label>
+          <select id="interest" name="interest" style="font-size: 20px; color: #606266;">
+            <option value="0">选择喜好</option>
+            <option value="1">fgo</option>
+            <option value="2">碧蓝航线</option>
+            <option value="3">舰队collection</option>
+            <option value="4">二次元</option>
+            <option value="5">游戏</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="touch-box">
+      <div class="touch-item">
+        <p class="accepting">
+          性别：<label for="isMan"></label><input type="checkbox" id="isMan" onClick="checkMan()" value="0">
+          男 </p>
+      </div>
+      <div class="touch-item">
+        <p class="accepting">
+          <label for="isGirl"></label><input type="checkbox" id="isGirl" onClick="checkGirl()" value="0">
+          女 </p>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <button class="sign_up-button" type="submit" name="btnSign" id="btnSign">立即注册</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

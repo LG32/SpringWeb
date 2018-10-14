@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新闻发布</title>
+</head>
+<link rel="stylesheet" href="../css/NewsCss.css" type="text/css">
+<body>
+<form action="NewsServlet" method="post">
+  <div style="text-align: center">
+    <div style="margin: 30px">
+      <input id="news_tit" placeholder="文章标题" class="news-tit" autocomplete="off" name="news_tit" required="required">
+    </div>
+    <div>
+      <input id="news_text" placeholder="文章正文"
+             autocomplete="off" name="news_text" class="news-text" required="required">
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 20px;">
+    <button class="button-form" type="submit">提交</button>
+  </div>
+</form>
+</body>
+</html>

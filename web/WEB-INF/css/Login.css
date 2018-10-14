@@ -1,0 +1,175 @@
+/* CSS Document */
+.login-box {
+	position: absolute;
+	min-height: 372px;
+	background: #fff;
+	top: 35%;
+	left: 60%;
+	width: 340px;
+	padding: 0px 45px 25px;
+	box-shadow: 0 0 30px #eee;
+}
+.login-title {
+	height: 59px;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 20px;
+	width: 304px;
+	margin-left: 14px;
+}
+.login-txt {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: #a8a0b7;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	top: 38px;
+	left: 170px;
+}
+.play-title {
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 20px;
+	margin-top: 80px;
+}
+.play-txt {
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: #a8a0b7;
+	background: #fff;
+	text-align: center;
+}
+.play-content {
+	text-align: center;
+	top: 50px;
+}
+.play-background {
+	z-index: -500;
+}
+.playbox {
+	position: absolute;
+	min-height: 372px;
+	background: #fff;
+	top: 35%;
+	left: 55%;
+	width: 450px;
+	padding: 0px 25px 25px 25px;
+	box-shadow: 0 0 30px #eee;
+}
+.playbox-title {
+	height: 59px;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.playbox-txt {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: #a8a0b7;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	top: 38px;
+	left: 200px;
+}
+.playbox-divli {
+	list-style: none;
+}
+.playbox-li {
+	font-size: 20px;
+	margin-top: 10px;
+}
+ul:after, div:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.border {
+	width: 332px;
+	height: 53px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	border-bottom: #BDBDBD solid 1px;
+}
+form .ipt {
+	width: 229px;
+	padding: 15px 0px 20px 10px;
+	display: inline-block;
+	font-size: 16px;
+	color: #333;
+	vertical-align: middle;
+	border: none;
+	background: none;
+	outline: none;
+}
+.login-button {
+    display: inline-block;
+	width: 150px;
+	height: 42px;
+	margin-top: 20px;
+	font-size: 20px;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	background-color: #1a8afa;
+}
+.sign_btn {
+    display: inline-block;
+	width: 150px;
+	height: 42px;
+	margin-top: 20px;
+	font-size: 20px;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	color: black;
+	background-color: #FFFFFF;
+	margin-left: 30px;
+}
+.headbackground {
+	width: 100%;
+	z-index: -500;
+}
+.acceptinfo, .acceptinfo a {
+	display: inline-block;
+	font-size: 15px;
+	color: #999999;
+}
+.title {
+	background-color: #59a1e9;
+	list-style: none;
+}
+.navigation {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+}
+.titleli {
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	margin-right: 80px;
+	margin-left: 80px;
+	font-size: 18px;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.sign_url{
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 100px;
+	color: blue;
+	border-bottom: 1px solid blue;
+}

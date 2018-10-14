@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+</head>
+<link rel="stylesheet" href="css/Login.css" type="text/css">
+<img class="headbackground" src="images/login/background.png" alt="图丢了！"/>
+<div class="login-box" style="display: block">
+  <div class="login-title">
+    <div class="login-txt">用户登录</div>
+  </div>
+  <form action="Login" method="post">
+    <div class="border">
+      <label style="color: #909090">账号</label>
+      <input class="ipt" id="master_id" name="master_id" type="text" value="" required="required">
+    </div>
+    <div class="border">
+      <label style="color: #909090">密码</label>
+      <input class="ipt" id="master_password" name="master_password" type="password" value="" required="required">
+    </div>
+    <div style="margin-top: 8px; margin-bottom: 8px;">
+      <p class="acceptinfo">
+        <input type="checkbox" checked="checked">
+        同意制作者活很棒</p>
+		<a id="toSignUp" class="sign_url">遗忘密码？</a>
+    </div>
+    <div>
+      <button class="login-button" type="submit" name="btnLogin" id="btnLogin">登录</button>
+      <button class="sign_btn" name="btnSign" id="sign_btn" >注册</button>
+    </div>
+  </form>
+</div>
+<body>
+</body>
+</html>
